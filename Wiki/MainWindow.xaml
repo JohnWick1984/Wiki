@@ -1,0 +1,142 @@
+﻿<Window x:Class="Wiki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wiki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1200" Width="1000">
+    <Grid>
+   
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left" >
+
+          
+            <Image Source="C:\Users\Евгений\Documents\Учеба Академия ТОР\WPF\Wiki\Wiki\wiki.png" Width="118" Height="130" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Заглавная страница" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Содержание" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Избранные статьи" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Случайная статья" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Текущие события" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Пожертвовать" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="" Margin="0,0,0,5"/>
+            <TextBlock Text="Участие" FontWeight="Bold" Foreground="Black" Margin="0,0,0,5"/>
+            <Separator></Separator>
+            <TextBlock Text="Сообщить об ошибке" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Как править статьи" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Сообщество" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Форум" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Свежие правки" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Новые страницы" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Справка" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="" Margin="0,0,0,5"/>
+            <TextBlock Text="Инструменты" FontWeight="Bold" Foreground="Black" Margin="0,0,0,5"/>
+            <Separator></Separator>
+            <TextBlock Text="Ссылки сюда" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Связанные правки" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Служебные страницы" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Постоянная ссылка" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Сведения о странице" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Цитировать страницу" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Получить" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="сокращенный-URL" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="адрес" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Развернуть все" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="" Margin="0,0,0,5"/>
+            <TextBlock Text="Печать/экспорт" FontWeight="Bold" Foreground="Black" Margin="0,0,0,5"/>
+            <Separator></Separator>
+            <TextBlock Text="Скачать как PDF" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Версия для печати" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="" Margin="0,0,0,5"/>
+            <TextBlock Text="В других проектах" FontWeight="Bold" Foreground="Black" Margin="0,0,0,5"/>
+            <Separator></Separator>
+            <TextBlock Text="Викисклад" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Викиновости" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="Элементы Викиданных" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="" Margin="0,0,0,5"/>
+            <TextBlock Text="На других языках" FontWeight="Bold" Foreground="Black" Margin="0,0,0,5"/>
+            <Separator></Separator>
+            <TextBlock Text="Русский" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+            <TextBlock Text="English" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+
+        </StackPanel>
+        <StackPanel Margin="160,10,10,10">
+            <TextBlock Text="Red Dead Redemption 2" FontSize="20" FontWeight="Bold" Margin="0,0,0,5" RenderTransformOrigin="0.498,0.716" Width="799"/>
+            <Separator Margin="0,5,0,5"/>
+            <TextBlock Text="Материал из Википедии - свободной энциклопедии" FontSize="12" Width="802"/>
+        </StackPanel>
+        <Grid Margin="160,0,0,0">
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="620,72,0,0" Height="336" Width="198">
+
+                <StackPanel Width="142" Height="16">
+
+                    <TextBlock Text="Red Dead Redemption 2." TextWrapping="Wrap" Foreground="Black" Width="142"/>
+                </StackPanel>
+                <Image Source="C:\Users\Евгений\Documents\Учеба Академия ТОР\WPF\Wiki\Wiki\Red.jpg" Width="95" Height="94" RenderTransformOrigin="2.027,0.579"/>
+            </StackPanel>
+
+            <TextBox TextWrapping="Wrap" IsReadOnly="True" Foreground="Black" Text="Разработчик: Rockstar Studios[комм. 1]                   
+                     Издатель: Rockstar Games 
+                     Часть серии: Red Dead 
+                     Дата анонса: 18 октября 2016[1]            
+                     Даты выпуска: PlayStation 4, Xbox One 26 октября 2018[2] Windows 5 ноября 2019[3]      
+                     Лицензия: проприетарная              
+                     Последняя версия 1.31        
+                     Жанры: шутер от третьего лица, шутер от первого лица, приключенческий боевик, вестерн      
+                     Создатели: Продюсеры Роб Нельсон         
+                     Исполнительные продюсеры: Сэм Хаузер Дэн Хаузер            
+                     Геймдизайнер: Имран Сарвар        
+                     Сценаристы: Дэн Хаузер Майкл Ансворт Руперт Хамфрис      
+                     Программист: Фил Хукер         
+                     Художник: Аарон Гарбут         
+                     Композитор: Вуди Джексон       
+                     Технические данные: Платформы PlayStation 4 Xbox One Windows      
+                     Движки: RAGE[4], euphoria, Bullet    
+                     Режимы игры: однопользовательский, многопользовательский       
+                     Языки: английский, испанский, итальянский, немецкий, русский, французский, японский    
+                     Носители 2 × BD, цифровая дистрибуция   
+                     Системные требования: Windows Управление геймпад, клавиатура и мышь" Margin="620,227,22,171"/>
+            <StackPanel Orientation="Vertical" Background="#D3D3D3" Margin="19,674,644,133">
+                <TextBlock Text="Содержание" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,5"/>
+                <TextBlock Text="1 Игровой процесс" Margin="0,0,0,5"/>
+                <TextBlock Text="    1.1Шкала чести" Margin="0,0,0,5"/>
+                <TextBlock Text="2 Сюжет" Margin="0,0,0,5"/>
+                <TextBlock Text="    2.1Персонажи" Margin="0,0,0,5"/>
+                <TextBlock Text="    2.2История" Margin="0,0,0,5"/>
+                <TextBlock Text="3 Музыка" Margin="0,0,0,5"/>
+                <TextBlock Text="4 Разработка" Margin="0,0,0,5"/>
+                <TextBlock Text="    4.1Первая информация" Margin="0,0,0,5"/>
+                <TextBlock Text="    4.2Анонс и выпуск" Margin="0,0,0,5"/>
+                <TextBlock Text="5 Отзыва, продажи и награды" Margin="0,0,0,5"/>
+                <TextBlock Text="    5.1До выхода" Margin="0,0,0,5"/>
+                <TextBlock Text="    5.2Продажи" Margin="0,0,0,5"/>
+                <TextBlock Text="    5.2Награды и номинации" Margin="0,0,0,5"/>
+                <TextBlock Text="6 Red Dead Online" Margin="0,0,0,5"/>
+                <TextBlock Text="7 Примечания" Margin="0,0,0,5"/>
+                <TextBlock Text="8 Литературв" Margin="0,0,0,5"/>
+                <TextBlock Text="9 Ссылки" Margin="0,0,0,5"/>
+            </StackPanel>
+
+        </Grid>
+        <RichTextBox x:Name="richTextBox" VerticalScrollBarVisibility="Auto" TextChanged="RichTextBox_TextChanged" Margin="178,85,259,592">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Red Dead Redemption 2 (стилизованно — Red Dead Redemption II, сокращённо RDR2) — компьютерная игра в жанрах action-adventure и шутера от третьего лица с открытым миром, разработанная Rockstar Studios[комм. 1] и выпущенная Rockstar Games для консолей PlayStation 4 и Xbox One 26 октября 2018 года и для персональных компьютеров под управлением Windows 5 ноября 2019 года. Является третьей игрой в серии Red Dead и приквелом к Red Dead Redemption 2010 года."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Действие Red Dead Redemption 2, оформленной в духе вестерна, происходит на территории нескольких вымышленных штатов США на рубеже XIX—XX веков. Сюжет игры построен вокруг приключений банды Датча Ван дер Линде; под управлением игрока находится один из членов банды — Артур Морган, а после прохождения сюжетной линии до эпилога — другой член банды, Джон Марстон. После неудачного ограбления парома бандиты вынуждены скрываться в глуши от федеральных агентов и охотников за головами. Red Dead Redemption 2 предлагает игроку свободно путешествовать по обширному миру игры, самостоятельно находя интересные места и занятия — к числу таких возможных занятий принадлежат перестрелки, ограбления, охота на диких животных, скачки на лошадях и нахождения коллекционных предметов (сигаретные карточки, ловля легендарных рыб/животных, кости динозавров, наскальные рисунки и т. д.). Особая система «чести», учитывающая как достойные, так и преступные поступки игрока, влияет как на сюжет игры, так и на игровой процесс."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="После выхода Red Dead Redemption 2, как одна из самых ожидаемых и широко рекламируемых в это время игр, побила несколько рекордов продаж — лишь за две недели после их начала было продано свыше 17 миллионов копий игры, принеся компании Rockstar свыше 725 миллионов долларов прибыли. Она получила самые высокие оценки прессы — обозреватели удостоили самых высоких похвал сюжет, персонажей, предоставленную игроку свободу и чрезвычайное внимание разработчиков к деталям. По итогам 2018 года игра также собрала ряд престижных наград, в том числе «Выбор критиков» на церемонии Golden Joystick Awards и «Лучшее повествование» и «Лучший саундтрек» на церемонии The Game Awards. Также в 2018 году игра стала лауреатом 22-й ежегодной премии D.I.C.E. Awards — премии Академии интерактивных искусств и наук (Academy of Interactive Arts  Sciences), одержав победу в номинации «Выдающееся техническое достижение»."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <StackPanel x:Name="stackPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <ToggleButton Content="Жирный" IsChecked="{Binding ElementName=richTextBox, Path=Selection.GetPropertyValue(TextElement.FontWeightProperty).Equals(Bold)}" Click="ToggleButton_Click"/>
+            <ToggleButton Content="Курсив" IsChecked="{Binding ElementName=richTextBox, Path=Selection.GetPropertyValue(TextElement.FontStyleProperty).Equals(Italic)}" Click="ToggleButton_Click"/>
+            <ToggleButton Content="Подчеркнутый" IsChecked="{Binding ElementName=richTextBox, Path=Selection.GetPropertyValue(Inline.TextDecorationsProperty).Equals(UnderlineCollection)}" Click="ToggleButton_Click"/>
+        </StackPanel>
+    </Grid>
+    
+</Window>
